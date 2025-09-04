@@ -1,0 +1,43 @@
+[
+    {
+        "key": "clientID",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Client ID",
+            "description": "The Client ID to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "clientSecret",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "type": "password",
+            "label": "Client Secret",
+            "description": "The Client Secret to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "BaseUrl",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "BaseUrl",
+            "description": "The URL to the API.",
+            "required": true
+        }
+    },
+    {
+        "key": "siteId",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Site ID",
+            "description": "The ID of the site to connect to. The ID of the site can be retrieved from the API. More information can be found in the readme.",
+            "required": true
+        }
+    }
+]
